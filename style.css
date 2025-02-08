@@ -1,19 +1,31 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+    padding: 15px 0;
     text-align: center;
 }
 
-header {
-    background-color: black;
-    color: white;
-    padding: 10px;
+header h1 {
+    margin: 0;
+    font-size: 28px;
 }
 
+/* Navigation Bar */
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 10px 0 0;
+    text-align: center;
 }
 
 nav ul li {
@@ -22,17 +34,50 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
-}
-
-main {
-    padding: 20px;
-}
-
-footer {
-    background-color: black;
     color: white;
-    padding: 10px;
-    margin-top: 20px;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Main Content */
+main {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Buttons */
+button {
+    margin-top: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
 }
